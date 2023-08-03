@@ -1,4 +1,4 @@
-# fLexbox training
+# flexbox training
 
 ## nested flexboxes
 
