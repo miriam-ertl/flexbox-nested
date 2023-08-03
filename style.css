@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --margin: 0.5rem;
+  --padding: 0.5rem;
+  --border-radius: 0.5rem;
+}
+
+body {
+  font-family: Arial;
+  color: blue;
+}
+
+/* CSS */
+
+section {
+  background-color: pink;
+  margin: var(--margin);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+}
+
+.flex-container {
+  display: flex;
+  background-color: orange;
+  border-radius: var(--border-radius);
+  margin: var(--margin);
+  padding: var(--padding);
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-item {
+  background-color: salmon;
+  border-radius: var(--border-radius);
+  margin: var(--margin);
+  padding: var(--padding);
+}
+
+.flex-on-children .big {
+  flex: 2;
+}
+
+/* proportionally (flex ratios 2, 4, 1)*/
+/*
+.flex-on-children .bigger {
+  flex: 4;
+}
+*/
